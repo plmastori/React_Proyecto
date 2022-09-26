@@ -7,8 +7,9 @@ import image3 from "../img/Principal3.jpg";
 
 const Home = () => {
     return (
-
+    
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <br></br>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src={image1}   width= "2000" height= "1000" />
